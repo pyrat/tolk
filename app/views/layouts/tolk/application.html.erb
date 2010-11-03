@@ -22,7 +22,7 @@
   
   <script type="text/javascript">
     $(document).ready(function() {
-      $("td textarea").each(function(element) {
+      $("td textarea").each(function(index, element) {
         var tdheight = element.parent().height();
         element.height(tdheight);
       });
